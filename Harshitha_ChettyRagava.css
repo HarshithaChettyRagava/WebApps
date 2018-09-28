@@ -1,0 +1,41 @@
+body{
+    background-image: url('file:///C:/Users/S533569/Desktop/587256958-soothing-background.jpg');
+}
+
+#sectionheader{
+    color: black;
+}
+#Aboutme{
+    color: blue;
+    font: bold;
+    margin:5px;
+}
+
+.Pastsection{
+    border-style: solid;
+    color: black;
+    font-style: inherit; 
+    }
+    
+.Futuresection{
+
+    border-style: dotted;
+    outline-style: solid;
+    outline-color: darkred;
+}
+
+.Schedule{
+    color: darkgreen;
+    list-style-type: disc;
+    background-color: aqua;
+
+}
+.asideheader{
+    color: darkorange;
+}
+
+footer{
+    background-color: blueviolet;
+    color: azure;
+    font-style: initial;
+}
