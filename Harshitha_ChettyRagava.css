@@ -1,12 +1,25 @@
+.sectionheader{
+    text-align: center;
+    font: bold;
+    
+}
 body{
-    background-image: url('file:///C:/Users/S533569/Desktop/587256958-soothing-background.jpg');
+    background-image: url('file:///C:/Users/S533569/Desktop/rename.jpg');
+}
+
+img{
+    border-radius: 50%;
+    max-height: 400px;
+    max-width: 400px;
+    width: 200px;
+    height: 200px
 }
 
 #sectionheader{
     color: black;
 }
 #Aboutme{
-    color: blue;
+    color:orangered;
     font: bold;
     margin:5px;
 }
@@ -19,9 +32,10 @@ body{
     
 .Futuresection{
 
-    border-style: dotted;
-    outline-style: solid;
-    outline-color: darkred;
+    /* border-style: dotted; */
+    /* outline-color: darkred; */
+    color: orange;
+
 }
 
 .Schedule{
@@ -32,6 +46,10 @@ body{
 }
 .asideheader{
     color: darkorange;
+}
+
+.tq{
+    text-align: center;
 }
 
 footer{

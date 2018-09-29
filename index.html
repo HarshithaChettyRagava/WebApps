@@ -1,32 +1,56 @@
 <!doctype html>
 <html lang ="en">
 <head>
-	<title>06 Harshitha Chetty Ragavas</title>
-	<link rel="stylesheet" href="Harshitha_ChettyRagava.css"/>
+	<title>My First Webpage</title>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Harshitha_ChettyRagava.css"/>
+	<!---This is bootstrap file-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
 	<body>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="#">Navbar</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarNav" aria-controls="navbarNav"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+					<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="newpage.html">App page</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+					</ul>
+					</div>
+				</nav>
 	<section class="Aboutme">
-		<h1 class="sectionheader">About Me</h1>
-		<p><strong>06_Harshitha Chetty Ragava</strong></p>
+		<h3 class="sectionheader">Section-06, Harshitha Chetty Ragava</h3>
+		<img src="Harshitha.jpg" alt="Avatar" style="widows: 200px;">
+		<h5>About Me</h5>
 		<p>Hello there,I'm from southern part of India where sea food is so famous.</p>
 	</section>
 	<section id="Pastsection">
-		<h1>Past</h1>
+		<h5>Past</h5>
 		<p>I have completed my UG in 2015 on Information technology. 
 		I can offer 3.2 years IT experience in Tata Cosultancy Services where i have been worked on developing test suites using VB script. 
 		Also, i have been assigned to do tasks related to core java.</p>
 	</section>
 	<section id="Presentsection">
-		<h1>Present</h1>
+		<h5>Present</h5>
 		<p>I'm pursuing masters in applied computer science in Northwest Missouri State University at Maryville Missouri</p>
 	</section>
 	<section class="Futuresection">
-		<h1>Future</h1>
+		<h5>Future</h5>
 		<p>In Future, I want to see myself as software engineer at MNC.</p>
 	</section>
 	<section id="Schedule">
-		<h1>Schedule</h1>
+		<h5>Schedule</h5>
 		<ul>
 		<li>Developing Web Applications and Services</li>
 		<li>Advanced Topics in Database Systems</li>
@@ -35,10 +59,10 @@
 	</section>
 	<aside class="asideheader">
 	<!--comment section--> 
-	<h3>This is aside</h3>
+	<h5>This is aside</h5>
 	</aside>
 <footer>
-	<strong>Thank You</strong>
+	<p class="tq">Thank You</p>
 </footer>
 </body>
 </html>
