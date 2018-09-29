@@ -1,10 +1,11 @@
 .sectionheader{
     text-align: center;
     font: bold;
-    
+    color: orange;   
 }
+
 body{
-    background-image: url('file:///C:/Users/S533569/Desktop/rename.jpg');
+    background-image: url('file:///C:/Users/S533569/Harshitha_Chetty_Ragava/44563/WebApps/rename.jpg');
 }
 
 img{
@@ -14,10 +15,15 @@ img{
     width: 200px;
     height: 200px
 }
-
-#sectionheader{
-    color: black;
+.All{
+    color: yellow;
 }
+.colorit{
+    color: orange;
+}
+/* #sectionheader{
+    color: black;
+} */
 #Aboutme{
     color:orangered;
     font: bold;
@@ -34,15 +40,19 @@ img{
 
     /* border-style: dotted; */
     /* outline-color: darkred; */
-    color: orange;
+    /* color: orange; */
 
 }
 
 .Schedule{
-    color: darkgreen;
+    /* color: darkgreen; */
     list-style-type: disc;
-    background-color: aqua;
+    /* background-color: aqua; */
 
+}
+
+#VideoUpload{
+     text-align:"right"; 
 }
 .asideheader{
     color: darkorange;
