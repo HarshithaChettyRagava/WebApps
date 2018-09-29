@@ -3,49 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./game.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tic Tac Toe</title>
     <!-- <link rel="stylesheet" href="Harshitha_ChettyRagava.css"/> -->
-	<!---This is bootstrap file-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <!---This is bootstrap file-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./game.css">
 </head>
 
 <body>
+      <!-- <nav class="navbar navbar-inverse" style="position: fixed;left: 0px;top: 0px; min-width: 100%;min-height: 50px;margin-bottom: 20px;">
+				<div class="container-fluid">
+				<div class="navbar-header"> 
+					  	<a class="navbar-brand" href="index.html">Home</a>
+					   	<a class="navbar-brand" href="#">Game Page</a>
+            <a class="navbar-brand" href="contact.html">Contact Page</a>
+				</div>
+				</div>
+    </nav> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
         <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                       <a class="nav-link" href="newpage.html">Game Page</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Page</a>
-                </li>	
-             </ul>
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">App page<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Page</a>
+              </li>  
+            </ul>
         </div>
-    </nav>
+      </nav>
     <!-- <h1>This is heading with h1</h1> -->
-    <h4>Tic Tac Toe</h4>
+    <h3>Tic Tac Toe</h3>
+
     <main>
+        <div class="grid-container">
             <section id="upper-left"></section>
             <section id="upper-mid"></section>
             <section id="upper-right"></section>
         
-            <section id="center-left"> </section>
+            <section id="center-left"></section>
             <section id="center-mid"> </section>
             <section id="center-right"> </section>
         
             <section id="lower-left"> </section>
             <section id="lower-mid"> </section>
             <section id="lower-right"> </section>
-    </main>
+        </div>
+</main>
           <aside>
             <h4>Specification</h4>
             <section>
@@ -64,5 +77,6 @@
               </ol>
             </section>
           </aside>
+          <script src="./game.js" defer></script>
         </body>
 </html>

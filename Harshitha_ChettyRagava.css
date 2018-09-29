@@ -6,6 +6,7 @@
 
 body{
     background-image: url("rename.jpg");
+    /* background-image: url('file:///C:/Users/S533569/Harshitha_Chetty_Ragava/44563/WebApps/rename.jpg'); */
 }
 
 img{
@@ -13,14 +14,21 @@ img{
     max-height: 400px;
     max-width: 400px;
     width: 200px;
-    height: 200px
+    height: 200px;
 }
 .All{
     color: yellow;
 }
+
 .colorit{
     color: orange;
 }
+
+.navbar-nav{
+    background-color: orange;
+    width: 100%;
+}
+
 /* #sectionheader{
     color: black;
 } */
